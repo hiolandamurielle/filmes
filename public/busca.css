@@ -1,0 +1,28 @@
+.barraBusca {
+    padding: 14px 10px 10px 51px;
+  }
+  
+  form.buscarFilmes input[type=text] {
+      padding: 10px;
+      font-size: 18px;
+      border: 1px solid #EBEBEB;
+      border-radius: 25px;
+      float: left;
+      width: 96%;
+      background: #EBEBEB;
+  }
+  
+  textarea:focus, input:focus {
+      outline: none;
+  }
+  form.buscarFilmes button:hover {
+      background: #0b7dda;
+  }
+  
+  form.buscarFilmes::after {
+      content: "";
+      clear: both;
+      display: table;
+      border-radius: 25px;
+  }
+  

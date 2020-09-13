@@ -1,0 +1,19 @@
+.cabecalhoPrincipal {
+    background-color: #116192;
+    padding: 10px 0;
+ }
+ 
+.cabecalhoPrincipal  h1 {
+    color: #11DAE5;  
+}
+  
+ .cabecalhoPrincipal-titulo {
+    font-family: 'Abel', sans-serif; 
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.cabecalhoPrincipal-titulo a {
+    text-decoration: none;
+    color: inherit;
+}

@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #114d81;
+  font-family: 'Abel'; /*   ou LAto*/
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.footer{
+    background-color: #114d81;
+    padding: 10px;
+}

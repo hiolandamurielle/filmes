@@ -1,0 +1,54 @@
+@media(max-width: 769px) {
+
+    .conteudoFilme{
+        display: flex;
+    }
+    .title h2 {
+        font-size: 1.2em;
+    }
+    .overview p {
+       overflow: hidden;
+    }
+    .image img{
+        height: 243px;
+    }
+    .title {
+        
+        padding: 0px 75px;
+    }
+
+    h3.titulo {
+        padding: 10px 0px 10px 20px;
+        font-size: 23px;
+    }    
+    .descricaoFilme{
+        font-size: 18px;
+        text-align: justify;
+	}
+    form.buscarFilmes input[type=text] {
+        width: 90%;
+    }
+   
+    .paginacaoHover {
+        padding-top: 6.2em;
+        padding-bottom: 8.2em;
+    }
+
+    .dateMovie{
+        margin: 21px;
+        font-size: 22px;
+    }
+    .ratingValue {
+        position: absolute;
+        top: 68%;
+        margin-left: 68%;
+        
+    }
+    
+    .button1{
+        margin-bottom: 20px;
+
+    }
+
+    
+}
